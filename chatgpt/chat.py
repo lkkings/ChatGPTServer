@@ -7,7 +7,7 @@ import os
 import sys
 from datetime import date
 import openai
-import tiktoke
+import tiktoken
 
 ENGINE = os.environ.get("GPT_ENGINE") or "text-chat-davinci-002-20221122"
 
